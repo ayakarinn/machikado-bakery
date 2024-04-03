@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Zen Old Mincho", serif;
+}
+
+header,
+section,
+.pan,
+.koda,
+main,
+footer,
+.kaigyo {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	margin-top: 20px;
+}
+
+section h1 {
+	padding: 20px;
+	color: #6b3f31;
+}
+
+.flexbox,
+.flexbok,
+.flexboks {
+	display: flex;
+}
+
+.flexbok img,
+.flexboks img {
+	padding-bottom: 50px;
+	padding-left: 110px;
+}
+
+.flexbok p,
+.flexboks p {
+	padding-top: 100px;
+	padding-left: 120px;
+	line-height: 2;
+	font-size: 18px;
+}
+.contain {
+	display: block;
+}
+.back{
+	background-image: url(./img/photo-1517433670267-08bbd4be890f.avif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.back p{
+	color: #fff	;
+	font-size: 28px;
+	text-shadow: 1px 1px 3px #000;
+	padding-top: 250px;
+	padding-left: 50px;
+}
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	width: 300px;
+}
+
+nav li a {
+	display: block;
+	background-color: #f8f8f8;
+	border: 1.5px solid #fff;
+	border-radius: 3px;
+	color: #6b3f31;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px;
+	font-size: 20px;
+}
+
+nav li a:hover {
+	color: #fff;
+}
+
+.koda {
+	color: #6b3f31;
+	text-align: center;
+}
+
+.koda h2 {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #6b3f31;
+	display: inline-block;
+	font-size: 30px;
+	font-weight: lighter;
+	padding: 10px;
+}
+
+.koda img {
+	max-width: 1000px;
+	width: 30%;
+	width: 30%;
+}
+.flexboks{
+	margin-bottom: 50px;
+}
+.kaigyo {
+	color: #6b3f31;
+	border: solid 1px #6b3f31;
+	padding-top: 10px;
+	padding-bottom: 35px;
+	padding-left:  80px;
+	padding-right: 80px;
+	border-radius: 8px;
+	width: 500px;
+	margin-bottom: 50px;
+	max-width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+.kaigyo h2 {
+	font-weight: lighter;
+	border-bottom: 1px solid #6b3f31;
+	line-height: 2;
+	display: inline-block;
+	margin-left: 215px;
+}
+
+.kaigyo ul li {
+	list-style: none;
+	line-height: 3;
+}
+.oshirase{
+	background-color: #f8f8f8;
+	padding-top: 50px;
+	height: 300px;
+}
+footer {
+	color: white;
+	background-color: #7b5544;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+footer a {
+	padding: 0 800px;
+}
+footer{
+	margin-top: 25px;
+}
