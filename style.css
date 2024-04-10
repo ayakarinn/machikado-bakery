@@ -153,8 +153,7 @@ footer{
 	margin-top: 25px;
 }
 @media (max-width:800px){
-	img{
-	width:50%;
-	height:50%;}
+	.flexbox{
+	display:block;}
 	
 }
