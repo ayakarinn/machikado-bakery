@@ -153,8 +153,7 @@ footer{
 	margin-top: 25px;
 }
 @media (max-width:800px){
-	.flexbox{
-	display:block;}
+	nav li{width:200px;}
 	header img{
 		width:50%;
 		height:50%;}
