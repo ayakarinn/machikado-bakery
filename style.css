@@ -155,5 +155,7 @@ footer{
 @media (max-width:800px){
 	.flexbox{
 	display:block;}
-	
+	header img{
+		width:50%;
+		height:50%;}
 }
