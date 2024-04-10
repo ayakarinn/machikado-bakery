@@ -161,4 +161,9 @@ footer{
 		background-image:url("https://raw.githubusercontent.com/ayakarinn/machikado-bakery/master/phone.avif")
 		background-repeat:no-repeat;
 		background-size:cover;
+		.flexbox,
+.flexbok,
+.flexboks {
+	display: block;
+}
 }
